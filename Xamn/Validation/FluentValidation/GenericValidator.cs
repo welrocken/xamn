@@ -6,7 +6,7 @@ namespace Xamn.Validation.FluentValidation
     {
         public GenericValidator() : base()
         {
-            ValidationUtility.Setup(this);
+            ValidationUtility.AutoSetup(this);
         }
     }
 }

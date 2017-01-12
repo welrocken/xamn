@@ -35,8 +35,15 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions\TryExtensions.cs" />
+    <Compile Include="Notry\Try.cs" />
+    <Compile Include="Notry\TryException.cs" />
+    <Compile Include="Notry\TryResult.cs" />
+    <Compile Include="Notry\TryResultT.cs" />
+    <Compile Include="Notry\TryT.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reflection\ReflectionUtility.cs" />
+    <Compile Include="Utilities\TryUtility.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

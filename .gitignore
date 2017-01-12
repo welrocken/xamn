@@ -1,7 +1,7 @@
-/Xamn/.vs/
-/Xamn/Lib/
-/Xamn/Common/bin/
-/Xamn/Common/obj/
-/Xamn/Validation/bin/
-/Xamn/Validation/obj/
-/Xamn/Common/Xamn.Common.csproj.user
+.vs/
+packages/
+bin/
+obj/
+app.config
+packages.config
+*.user
